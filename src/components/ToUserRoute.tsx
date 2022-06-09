@@ -4,7 +4,6 @@ import AuthContext from "../context/AuthContext";
 import ShoutOut, { User } from "../models/ShoutOut";
 import {
   deleteShoutout,
-  getAllShoutOuts,
   getAllShoutOutsToUser,
   postNewShoutOut,
   upvoteShoutout,
