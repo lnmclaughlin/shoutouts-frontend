@@ -1,0 +1,82 @@
+.ShoutOutComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  list-style: none;
+  width: 100%;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+li.ShoutOutComponent {
+  background-color: white;
+}
+
+.ShoutOutComponent .x {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(23, 54, 97);
+  color: white;
+}
+
+.ShoutOutComponent .who-its-to {
+  margin: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ShoutOutComponent .to {
+  text-decoration: none;
+  color: rgb(23, 54, 97);
+}
+
+.ShoutOutComponent .from-container {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+.ShoutOutComponent .from {
+  margin: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ShoutOutComponent .from-img {
+  margin: 5px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.ShoutOutComponent .message {
+  margin: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ShoutOutComponent .shoutout-image {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 5px;
+  /* object-position: center; */
+}
+
+.ShoutOutComponent .votes-container {
+  display: flex;
+  align-items: center;
+}
+
+.ShoutOutComponent .votes-container button {
+  margin: 10px;
+}

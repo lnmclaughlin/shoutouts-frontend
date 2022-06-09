@@ -1,0 +1,30 @@
+.ShoutOutForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ShoutOutForm label {
+  margin: 5px;
+}
+
+.ShoutOutForm input {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ShoutOutForm #from {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.ShoutOutForm .submit {
+  padding: 5px;
+  border-radius: 5px;
+}
