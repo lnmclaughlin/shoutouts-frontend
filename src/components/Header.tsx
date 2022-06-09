@@ -13,6 +13,7 @@ const Header = () => {
           GC Shoutouts
         </Link>
       </h1>
+      {/* hello */}
       {/* <pre>{JSON.stringify(user, null, 2)}</pre> */}
       {user ? (
         <>
